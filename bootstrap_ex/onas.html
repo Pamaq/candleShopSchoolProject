@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>O nas</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md">
+			<div class="container">
+				<a href="#" class="navbar-brand">Sklep Ekoświece</a>
+				<button
+					class="navbar-toggler"
+					data-bs-toggle="collapse"
+					data-bs-target="#nav"
+					aria-controls="nav"
+					aria-label="Expand Navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="nav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">Strona główna</a>
+						</li>
+						<li class="nav-item">
+							<a href="onas.html" class="nav-link active" aria-current="page"
+								>O nas</a
+							>
+						</li>
+						<li class="nav-item">
+							<a href="galeria.html" class="nav-link">Galeria produktów</a>
+						</li>
+						<li class="nav-item">
+							<a href="formularz.html" class="nav-link">Formularz kontaktowy</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<header class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4">Dowiedz się więcej o naszej firmie!</h1>
+			</header>
+		<section class="container m-auto" style="background-color:rgb(219, 217, 213)">
+			<div class="stack row gap-4 d-flex justify-content-center p-3">
+				<div class="card col-lg-4 p-1">
+					<h2 class="lead">Kim jesteśmy?</h2>
+					<p>
+						Nasza rodzinna firma istnieje od pięciu lat i specjalizuje się w
+						produkcji naturalnych świec. Tworzymy nasze świece z wyłącznie
+						najwyższej jakości składników naturalnych, takich jak wosk sojowy
+						czy wosk pszczeli. Naszym celem jest tworzenie pięknych i
+						perfekcyjnie pachnących świec, które wypełnią Twój dom ciepłem i
+						przyjemnością. Dzięki naszemu doświadczeniu oraz pasji do tworzenia,
+						każda świeca jest unikatowa i starannie wykonana. Cieszymy się, że
+						możemy dostarczać nasze produkty klientom, którzy doceniają
+						naturalność i jakość.
+					</p>
+				</div>
+				<div class="card col-lg-3 p-1">
+					<h2 class="lead">Dane kontaktowe</h2>
+					<ul>
+						<li>12-234 Lublin</li>
+						<li>Ul. Nadbystrzycka 40a</li>
+						<li><a href = "mailto: email@kontakt.com">email@kontakt.com</a></li>
+						<li><a href="tel:123456789">tel.123 456 789</a></li>
+					</ul>
+					<img src="galeria/mail.JPG" alt="mail" style="height: 200px">
+				</div>
+				<div class="card col-lg-4 p-1">
+					<h2 class="lead">Znajdź nas</h2>
+					<div>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d342.99618429763643!2d22.54762864010269!3d51.23512932374443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722577741ac4c55%3A0x28b2739d5a2b5b1e!2sNadbystrzycka%2040A%2C%2020-619%20Lublin!5e0!3m2!1spl!2spl!4v1686394960913!5m2!1spl!2spl"
+							width="400"
+							height="250"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+						></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center">
+			<div class="card p-2 m-3" style="width:800px">
+				<h2 class="lead">Poznaj nasze inspiracje</h2>
+			<div class="container p-3 m-1 justify-content-center">
+				<div class="quote-box">
+					<p id="quote">"Świeczka nie traci niczego, zapalając inne świeczki. Właśnie odwrotnie - dzieli się swoim światłem, by roznosić ciepło i rozjaśniać ciemność. Bądź jak świeczka i podziel się swoim blaskiem, aby inspirować innych do świecenia."</p>
+					<small id="author">- Autor nieznany</small>
+				</div>
+				<button id="btn" class="btn btn-light btn-sm border border-2">Kolejny cytat</button>
+			</div>
+			</div>
+			</div>
+		</section>
+		<footer class="bg-dark text-light text-center py-4">
+			<div class="container">
+				<p>Ekoświece &copy; 2023</p>
+			</div>
+		</footer>
+		<script src="scriptApi.js"></script>
+		<!-- <script src="script.js"></script> -->
+	</body>
+</html>

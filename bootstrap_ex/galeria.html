@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Galeria</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="galleryStyles.css" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="lightbox.min.css">
+		<script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">Sklep Ekoświece</a>
+				<button
+					class="navbar-toggler"
+					data-bs-toggle="collapse"
+					data-bs-target="#nav"
+					aria-controls="nav"
+					aria-label="Expand Navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="nav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">Strona główna</a>
+						</li>
+						<li class="nav-item">
+							<a href="onas.html" class="nav-link">O nas</a>
+						</li>
+						<li class="nav-item">
+							<a href="galeria.html" class="nav-link active" aria-current="page"
+								>Galeria naszych produktów</a
+							>
+						</li>
+						<li class="nav-item">
+							<a href="formularz.html" class="nav-link">Formularz kontaktowy</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<header class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4">Poznaj nasze produkty</h1>
+			</header>
+			<div class="gallery">
+				<a href="galeria/1.JPG" data-lightbox="mygallery"><img src="galeria/1.JPG"class="mini" alt="obrazek 1"></a>
+				<a href="galeria/2.JPG" data-lightbox="mygallery"><img src="galeria/2.JPG"class="mini" alt="obrazek 2"></a>
+				<a href="galeria/3.JPG" data-lightbox="mygallery"><img src="galeria/3.JPG"class="mini" alt="obrazek 3"></a>
+				<a href="galeria/4.JPG" data-lightbox="mygallery"><img src="galeria/4.JPG"class="mini" alt="obrazek 4"></a>
+				<a href="galeria/5.JPG" data-lightbox="mygallery"><img src="galeria/5.JPG"class="mini" alt="obrazek 5"></a>
+				<a href="galeria/6.JPG" data-lightbox="mygallery"><img src="galeria/6.JPG"class="mini" alt="obrazek 6"></a>
+				<a href="galeria/7.JPG" data-lightbox="mygallery"><img src="galeria/7.JPG"class="mini" alt="obrazek 7"></a>
+				<a href="galeria/8.JPG" data-lightbox="mygallery"><img src="galeria/8.JPG"class="mini" alt="obrazek 8"></a>
+				<a href="galeria/9.JPG" data-lightbox="mygallery"><img src="galeria/9.JPG"class="mini" alt="obrazek 9"></a>
+				<a href="galeria/10.JPG" data-lightbox="mygallery"><img src="galeria/10.JPG"class="mini" alt="obrazek 10"></a>
+			</div>
+		<!-- <div>
+			<a href="galeria/1.JPG"
+				><img src="/galeria/1.JPG" alt="obrazek 1" class="mini"
+			/></a>
+			<a href="galeria/2.JPG"
+				><img src="galeria/2.JPG" alt="obrazek 2" class="mini"
+			/></a>
+			<a href="galeria/3.JPG.JPG"
+				><img src="galeria/3.JPG" alt="obrazek 3" class="mini"
+			/></a>
+			<a href="galeria/4.JPG"
+				><img src="galeria/4.JPG" alt="obrazek 4" class="mini"
+			/></a>
+			<a href="galeria/5.JPG"
+				><img src="galeria/5.JPG" alt="obrazek 5" class="mini"
+			/></a>
+			<a href="galeria/6.JPG"
+				><img src="galeria/6.JPG" alt="obrazek 6" class="mini"
+			/></a>
+			<a href="galeria/7.JPG"
+				><img src="galeria/7.JPG" alt="obrazek 7" class="mini"
+			/></a>
+			<a href="galeria/8.JPG"
+				><img src="galeria/8.JPG" alt="obrazek 8" class="mini"
+			/></a>
+			<a href="galeria/9.JPG"
+				><img src="galeria/9.JPG" alt="obrazek 9" class="mini"
+			/></a>
+			<a href="galeria/10.JPG"
+				><img src="galeria/10.JPG" alt="obrazek 10" class="mini"
+			/></a>
+		</div> -->
+		<footer class="bg-dark text-light text-center py-4">
+			<div class="container">
+				<p>Ekoświece &copy; 2023</p>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
